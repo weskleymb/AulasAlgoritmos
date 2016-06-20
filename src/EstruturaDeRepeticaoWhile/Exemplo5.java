@@ -13,12 +13,12 @@ public class Exemplo5 {
         
         do {
             
-            System.out.print(
-                  "----Votação----\n"
+            System.out.print(""
+                + "----Votação----\n"
                 + "1 - Candidato 1\n"
                 + "2 - Candidato 2\n"
                 + "3 - Candidato 3\n"
-                + "0 - Branco\n"
+                + "0 - Branco     \n"
                 + "---------------\n"
                 + "Voto: ");
             v = entrada.nextInt();

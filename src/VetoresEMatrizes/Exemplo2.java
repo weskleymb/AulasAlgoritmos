@@ -26,23 +26,23 @@ public class Exemplo2 {
 //        }
         
    
-            for (int notas_aluno[] : notas) {
-                
-                float soma = 0;
-                
-                for (int nota : notas_aluno) {
-                    soma += nota;
-                }
-                
-                float media = soma / 3;
-                    
-                if (media >= 7) {
-                    System.out.println(media + " -> APROVADO");
-                } else {
-                    System.out.println(media + " -> REPROVADO");
-                }
-                
+        for (int[] notas_aluno : notas) {
+
+            float soma = 0;
+
+            for (int nota : notas_aluno) {
+                soma += nota;
             }
+
+            float media = soma / 3;
+
+            if (media >= 7) {
+                System.out.println(media + " -> APROVADO");
+            } else {
+                System.out.println(media + " -> REPROVADO");
+            }
+
+        }
         
     }
     
